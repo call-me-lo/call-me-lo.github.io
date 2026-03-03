@@ -3,9 +3,9 @@ var toggleShow=document.getElementById('more');
 var toggleHide=document.getElementById('less');
 var aboutMe=document.getElementById('bio');
 
-var engagePartyMode=document.getElementById('startParty');
-var disengagePartyMode=document.getElementById('stopParty');
-var thePage=document.getElementById('thePage');
+/*var engagePartyMode=document.getElementById('startParty');
+/*var disengagePartyMode=document.getElementById('stopParty');
+/*var thePage=document.getElementById('thePage');*/
 
 
 toggleShow.addEventListener('click',function(e){
@@ -14,9 +14,9 @@ toggleShow.addEventListener('click',function(e){
 	toggleHide.classList.remove('hidden');
 	toggleShow.classList.add('hidden');
 
-	thePage.classList.add('extender');
+	/*thePage.classList.add('extender');
 
-	/*engagePartyMode.classList.add('hidden');
+	engagePartyMode.classList.add('hidden');
 	disengagePartyMode.classList.add('hidden');
 	thePage.classList.remove('party');*/
 });
@@ -27,11 +27,11 @@ toggleHide.addEventListener('click',function(e){
     toggleShow.classList.remove('hidden');
 	toggleHide.classList.add('hidden');
 
-	thePage.classList.remove('extender');
+	/*thePage.classList.remove('extender');
 	/*engagePartyMode.classList.remove('hidden');*/
 });
 
-engagePartyMode.addEventListener('click',function(e){
+/*engagePartyMode.addEventListener('click',function(e){
 	e.stopPropagation();
 	engagePartyMode.classList.add('hidden');
 	disengagePartyMode.classList.remove('hidden');
@@ -43,4 +43,4 @@ disengagePartyMode.addEventListener('click',function(e){
 	engagePartyMode.classList.remove('hidden');
 	disengagePartyMode.classList.add('hidden');
 	thePage.classList.remove('party');
-});
+});*/
