@@ -17,7 +17,7 @@
 body, html {  
 	background:var(--new-bg-color);
 	overflow-x: hidden;
-    background: url('/img/pastel-gradient.gif');
+    background: url('/img/pastel-gradient.gif')!important;
 	background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -101,9 +101,9 @@ background-size: 1800% 1800%;
 
 .extender {height:350vh!important;}
 
-html {
+/*html {
 background:var(--new-bg-color)!important;
-}
+}*/
 
 body {
 	/*min-height:100vh;*/
